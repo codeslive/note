@@ -6,3 +6,5 @@
 4. 公式都要会（1天时间）
 
 > 考试前留一套试卷做
+
+![](https://img.tucang.cc/api/image/show/7d4f76b57f8a7260829ea48721ac6aec)
