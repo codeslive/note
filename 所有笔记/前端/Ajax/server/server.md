@@ -1,3 +1,4 @@
+```javascript
 //导入 express
 const express = require('express');
 
@@ -31,7 +32,6 @@ app.all('/json-server', (req, res) => {
 
   res.send('HELLO AJAX JSON');
 });
-
 
 app.get('/ie', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -89,7 +89,6 @@ app.all('/jsonp-server', (req, res) => {
 
 });
 
-
 //原生jsonp
 app.all('/check-username', (req, res) => {
 
@@ -101,7 +100,6 @@ app.all('/check-username', (req, res) => {
   // //返回结果
   res.end(`handle(${str})`);
 });
-
 
 //
 app.all('/jquery-jsonp-server', (req, res) => {
@@ -118,7 +116,6 @@ app.all('/jquery-jsonp-server', (req, res) => {
   res.end(`${cb}(${str})`);
 });
 
-
 app.all('/cors-server', (req, res) => {
   //设置响应头
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -131,3 +128,4 @@ app.all('/cors-server', (req, res) => {
 app.listen(8000, () => {
   console.log('服务已经启动, 8000端口正在运行在……');
 });
+```
